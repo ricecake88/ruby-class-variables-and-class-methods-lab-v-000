@@ -45,6 +45,3 @@ class Song
   end
   
 end
-
-song = Song.new("name", "artist", "genreGENRE")
-puts Song.genre_count
