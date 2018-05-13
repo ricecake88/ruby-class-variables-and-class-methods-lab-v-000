@@ -23,22 +23,17 @@ class Song
   end
   
   def self.genre_count
-
-    empty = true
     @songs_each_genre_hash.each do |key, data|
       @@genres.each do |genre|
         if key == genre
-          empty = false
           @songs_each_genre_hash[key] += 1
         end
       end
       if empty
         @songs_each_genre[key] = 1
-        binding.pry
       end    
     end
-    puts "here?2"
-    @songs_each_genre_hash
+
   end
   
   def self.count
