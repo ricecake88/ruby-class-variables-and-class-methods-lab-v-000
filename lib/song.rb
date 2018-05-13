@@ -33,7 +33,7 @@ class Song
       end
       if empty
         @songs_each_genre[key] = 1
-        binding.py
+        binding.pry
       end    
     end
     @songs_each_genre_hash
