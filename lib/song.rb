@@ -10,6 +10,7 @@ class Song
     @name = name
     if !@@GENRES.include?(genre)
       @@GENRES << genre
+    end
   end
   
   def self.artists
