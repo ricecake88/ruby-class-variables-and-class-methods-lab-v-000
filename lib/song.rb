@@ -33,6 +33,10 @@ class Song
         end
       end
     end
+    
+    @@genres.each do |genre|
+      puts @songs_each_genre_hash.key?(genre)
+    end
   end
   
   def self.count
