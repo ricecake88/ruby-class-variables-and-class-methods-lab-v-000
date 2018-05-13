@@ -30,10 +30,10 @@ class Song
           @songs_each_genre_hash[key] += 1
         end
       end
+      if empty
+        @songs_each_genre[key] = 1
+      end    
     end
-    if empty
-      @songs_each_genre[key] = 1
-    end    
     @songs_each_genre_hash
   end
   
