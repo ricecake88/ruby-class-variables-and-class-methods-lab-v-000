@@ -31,6 +31,7 @@ class Song
         if genreKey == genre
           @songs_each_genre_hash[genreKey] += 1
         end
+      end
     end
   end
   
