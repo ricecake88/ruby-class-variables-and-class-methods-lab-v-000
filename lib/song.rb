@@ -21,6 +21,8 @@ class Song
   end
   
   def self.genre_count
+    songs_each_genre_hash = {}
+    
   end
   
   def self.count
@@ -31,4 +33,6 @@ class Song
     genreArray = @@genres.uniq
     genreArray
   end
+  
+
 end
