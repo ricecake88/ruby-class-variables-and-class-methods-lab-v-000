@@ -57,4 +57,5 @@ class Song
 end
 
 song = Song.new("woo", "yay", "tee")
+song = Song.new("task", "yay2", "tee")
 puts Song.genre_count
