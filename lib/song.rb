@@ -7,6 +7,8 @@ class Song
     @@count += 1
   end
   
+  def self.name
+  
   def self.artists
   end
   
