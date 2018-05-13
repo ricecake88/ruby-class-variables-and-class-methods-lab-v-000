@@ -29,6 +29,6 @@ class Song
   
   def self.genres
     genreArray = @@genres.uniq
-    genreArrays
+    genreArray
   end
 end
