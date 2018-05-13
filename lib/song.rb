@@ -27,6 +27,7 @@ class Song
         if key == genre
           songs_each_genre_hash[key] += 1
         end
+      end
     end
     songs_each_genre_hash
   end
