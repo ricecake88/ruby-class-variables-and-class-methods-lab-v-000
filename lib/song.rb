@@ -16,7 +16,8 @@ class Song
   end
   
   def self.artists
-    @@artists.uniq
+    artistArray = @@artists.uniq
+    artistArray
   end
   
   def self.genre_count
@@ -27,7 +28,7 @@ class Song
   end
   
   def self.genres
-    @@genres.uniq
-    @@genres
+    genreArray = @@genres.uniq
+    genreArrays
   end
 end
