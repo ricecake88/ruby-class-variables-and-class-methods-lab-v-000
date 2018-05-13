@@ -3,7 +3,7 @@ class Song
   attr_accessor :genre, :artist
   attr_reader :name
   @@count = 0
-  @@GENRES = []
+  @@genres = []
   @@names = []
   @@artists = []
   
@@ -13,7 +13,7 @@ class Song
     @name = name
     @@count += 1
     if !@@GENRES.include?(genre)
-      @@GENRES << @genre
+      @@genres << @genre
     end
   end
   
@@ -28,6 +28,6 @@ class Song
   end
   
   def self.genres
-    @@GENRES
+    @@genres
   end
 end
