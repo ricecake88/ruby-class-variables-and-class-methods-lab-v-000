@@ -28,6 +28,8 @@ class Song
           songs_each_genre_hash[key] += 1
         end
     end
+    songs_each_genre_hash
+  end
   
   def self.count
     @@count
