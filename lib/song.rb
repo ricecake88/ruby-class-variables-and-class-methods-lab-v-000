@@ -61,3 +61,4 @@ song = Song.new("task", "yay2", "tee")
 song = Song.new("task", "yay2", "mind")
 song = Song.new("task", "yay2", "mind")
 puts Song.genre_count
+puts Song.artist_count
