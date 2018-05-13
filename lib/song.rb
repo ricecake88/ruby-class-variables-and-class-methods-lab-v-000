@@ -1,7 +1,7 @@
 class Song
   
-  attr_accessor :genre, :artist
-  attr_reader :name
+  attr_accessor :@@genre, :artist
+  attr_reader :@@name
   @@count = 0
   @@GENRES = []
   
