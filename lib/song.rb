@@ -32,11 +32,13 @@ class Song
           @songs_each_genre_hash[key] += 1
         end
       end
+      puts "here?"
       if empty
         @songs_each_genre[key] = 1
         binding.pry
       end    
     end
+    puts "here?2"
     @songs_each_genre_hash
   end
   
