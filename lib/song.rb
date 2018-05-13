@@ -7,6 +7,7 @@ class Song
   @@names = []
   @@artists = []
   @songs_each_genre_hash = {}
+  @songs_each_artist_hash = {}
   
   def initialize(name, artist, genre)
     @name = name
