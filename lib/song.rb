@@ -48,5 +48,7 @@ class Song
     genreArray
   end
   
-
 end
+
+song = Song.new("name", "artist", "genre")
+song.genre_count
