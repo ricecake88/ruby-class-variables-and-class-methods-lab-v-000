@@ -23,18 +23,6 @@ class Song
   end
   
   def self.genre_count
-'''    
-    self.genres.each do |genre|
-      @songs_each_genre_hash[genre] = 0
-    end
-    @songs_each_genre_hash.each do |genreKey, genreData|
-      @@genres.each do |genre|
-        if genreKey == genre
-          @songs_each_genre_hash[genreKey] += 1
-        end
-      end
-    end
-    '''
     @@genres.each do |genre|
       if !@songs_each_genre_hash.key?(genre)
         @songs_each_genre_hash[genre] = 1
@@ -42,7 +30,7 @@ class Song
         @songs_each_genre_hash[genre] += 1
       end
     end
-    @songs_each_genre_hash
+    puts @songs_each_genre_hash
   end
   
   def self.count
