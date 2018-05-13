@@ -23,6 +23,7 @@ class Song
   end
   
   def self.genre_count
+    puts "Hello"
     empty = true
     @songs_each_genre_hash.each do |key, data|
       @@genres.each do |genre|
