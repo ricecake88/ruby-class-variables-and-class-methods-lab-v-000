@@ -37,9 +37,9 @@ class Song
     '''
     @@genres.each do |genre|
       if !@songs_each_genre_hash.key?(genre)
-        @songs_each_genre_hash[key] = 1
+        @songs_each_genre_hash[genre] = 1
       else
-        @songs_each_genre_hash[key] += 1
+        @songs_each_genre_hash[genre] += 1
       end
     end
   end
