@@ -23,6 +23,7 @@ class Song
   end
   
   def self.genre_count
+'''    
     self.genres.each do |genre|
       @songs_each_genre_hash[genre] = 0
     end
@@ -33,9 +34,13 @@ class Song
         end
       end
     end
-    
+    '''
     @@genres.each do |genre|
-      puts @songs_each_genre_hash.key?(genre)
+      if !@songs_each_genre_hash.key?(genre)
+        @songs_each_genre_hash[key] = 1
+      else
+        @songs_each_genre_hash[key] += 1
+      end
     end
   end
   
