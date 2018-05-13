@@ -23,9 +23,7 @@ class Song
   end
   
   def self.genre_count
-    uniqueGenre = self.genres
-    puts uniqueGenre
-    uniqueGenre.each do |genre|
+    self.genres.each do |genre|
       @songs_each_genre_hash[genre] = 1
     end
      @songs_each_genre_hash
