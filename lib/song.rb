@@ -7,10 +7,6 @@ class Song
     @@count += 1
   end
   
-  def name
-    @name
-  end
-  
   def self.artists
   end
   
