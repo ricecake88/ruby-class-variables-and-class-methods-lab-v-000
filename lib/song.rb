@@ -1,5 +1,7 @@
 class Song
   
+  @@artists
+  
   def initialize(artist, name, genre)
     @name = name
     @artist = artist
@@ -9,4 +11,6 @@ class Song
   def name
     @name
   end
+  
+  def self.artists
 end
