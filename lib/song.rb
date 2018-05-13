@@ -28,6 +28,6 @@ class Song
   
   def self.genres
     @@genres.uniq{|x| x}
-    puts @@genre
+    @@genre
   end
 end
