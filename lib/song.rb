@@ -32,6 +32,7 @@ class Song
       end
       if !empty
         @songs_each_genre[key] = 1
+      end
     end
     @songs_each_genre_hash
   end
